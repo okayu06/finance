@@ -1,23 +1,5 @@
-# README
+-Build form
 
-"This is the finance tracker app from the Complete Ruby on Rails Developer course"
+-Route
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-Controller -> action - stocks_controller.rb search
