@@ -1,9 +1,10 @@
 class UserStocksController < ApplicationController
   
   def create
-    
+    #tableから探す。
     stock = Stock.find_by_ticker(params[:stock_ticker])
     if stock.blank?
+      #webから探す。初めて記入されるものなら、tableにStockdataがない。
       stock = Stock.new_from_lookup(params[:stock_ticker])
       stock.save
     end 
